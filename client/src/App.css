@@ -1,0 +1,175 @@
+@import 'antd/dist/antd.css';
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button, .button{
+  background-color: #7f7f7f;
+  padding: 5px 20px;
+  text-transform: uppercase;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+button:focus {
+  background-color: red !important;
+}
+
+label{
+  text-transform: uppercase;
+}
+
+input{
+  border: 1px solid #dadada;
+  width: 100%;
+  padding: 5px 7px;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .activities{
+  margin: 10px;
+}
+
+.header .activities a{
+  padding: 5px 7px;
+  background-color: #ea5e11;
+  border-radius: 7px;
+  text-decoration: none;
+  color: #fff;
+}
+
+
+.contentbody{
+  max-width: 1400px;
+  display: flex;
+  margin-left: 200px;
+  align-items: center;
+}
+
+.contentbody .left{
+  margin-left: 170px;
+  margin-right: 10px;
+  margin-top: -20px;
+}
+
+.contentbody .right{
+  margin-top: 50px;
+  margin-left: 150px;
+}
+.contentbody .right h3{
+  font-size: 1.75rem;
+  font-weight: 500;
+  margin-top: 0;
+}
+
+
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.inputgroup{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.inputBox{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 10px;
+}
+
+.form{
+  max-width: 10%;
+  margin-bottom: 50px;
+}
+
+form>button{
+  margin: 20px 10px;
+}
+
+.videocontrolbtns button{
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+.left ul{
+  text-align: left;
+  border-right: 1px solid #505050;
+  height: 90%;
+}
+
+.left ul li{
+  text-decoration: none;
+  list-style: none;
+  padding: 7px 10px;
+}
+
+.left ul li a{
+  text-decoration: none;
+  color: #000;
+}
+
+.dashboard{
+  text-align: center;
+  width: 90%;
+}
+
+.dashboard h4{
+  color: #505050;
+  font-weight: 400;
+}
+
+.summary{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 45px;
+  color: #505050;
+}
+
+.applicants div{
+  border: 1px solid #505050;
+  padding: 40px 90px;
+  margin: 10px 0;
+  font-size: 25px;
+  width: 350px;
+}
+
+.video{
+  display: flex;
+  margin-top: 10px;
+}
+
+.comment{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
